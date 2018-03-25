@@ -1,0 +1,3 @@
+[submodule "Assets/Libraries/MinicDI"]
+	path = Assets/Libraries/MinicDI
+	url = git@github.com:oguzsan/Minic-DI-Source.git
