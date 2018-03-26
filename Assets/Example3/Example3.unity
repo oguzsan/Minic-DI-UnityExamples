@@ -639,7 +639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This example shows basic usage of injector.
+  m_Text: This example shows different ways to handle errors.
 --- !u!222 &1702746772
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2061949485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52226afde950bf54bbbd8692358270e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c7c9e132f004a14aa08fd4e0b4dc315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InjectionTargetList:

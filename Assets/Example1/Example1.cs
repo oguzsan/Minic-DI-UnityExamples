@@ -20,7 +20,6 @@ public class Example1 : MonoBehaviour
 		_Injector = new Injector(true);
 
         //  Add bindings
-
         //  Usage 1 : Bind to type; all bindings to same type will receive same instance when injected.
         //  You can use this when you want the object to be instantiated when it is first needed.
         _Injector.AddBinding<ISettings>().ToType<Settings>();

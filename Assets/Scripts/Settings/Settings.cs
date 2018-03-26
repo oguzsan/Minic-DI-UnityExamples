@@ -7,8 +7,8 @@ using System;
 public class Settings : ISettings
 {
     //  MEMBERS
-    public float SoundVolume { get; private set; }
-    public bool IsMusicPlaying { get; private set; }
+    public float SoundVolume { get; protected set; }
+    public bool IsMusicPlaying { get; protected set; }
     
     
     //  CONSTRUCTOR
@@ -20,13 +20,14 @@ public class Settings : ISettings
     
     
     // METHODS
-    public void SetSoundVolume(float value)
+    public virtual void SetSoundVolume(float value)
     {
         SoundVolume = value;
     }
     
-    public void ToggleMusic()
+    public virtual void ToggleMusic()
     {
         IsMusicPlaying = !IsMusicPlaying;
     }
+
 }
